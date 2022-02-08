@@ -57,8 +57,6 @@ public class TC_001_POST_Request {
 
         //Validate Body
 
-        String successCode = response.jsonPath().get("SuccessCode");
-        Assert.assertEquals(successCode,"OPERATION_SUCCESS");
 
     }
 }
