@@ -47,7 +47,6 @@ public class TC_001_POST_Request {
         //Create Response Object
 
         Response response = httpRequest.request(Method.GET,"posts/1");
-
         String ResponseBody  = response.getBody().asString();
 
         //Validate Headers
