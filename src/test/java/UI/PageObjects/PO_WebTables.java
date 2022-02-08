@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PO_WebTables extends base {
+public class PO_WebTables {
 
     //create local driver variable
 

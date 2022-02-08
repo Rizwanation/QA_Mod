@@ -21,6 +21,7 @@
         </build>
         <classes>
             <class name="API.TC_001_POST_Request"/>
+            <class name="UI.TestCases.UI_Test_001_WebTables"/>
         </classes>
     </test>
 
