@@ -1,3 +1,5 @@
+package API;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -10,22 +12,16 @@ public class TC_001_POST_Request {
 
 
     @Test
-    void RegistrationTest()
+    void TC_001_GETMethod()
     {
         //Specify Base URI
 
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com/";
 
-
         //Create Request Specification
-
         RequestSpecification httpRequest = RestAssured.given();
-
         //Specify the content type of Request
-
         httpRequest.header("content-type","application/json");
-
-
 
         //Create Json Body to be sent as parameter
 
@@ -56,6 +52,16 @@ public class TC_001_POST_Request {
 
         //Validate Body
 
+
+    }
+
+    @Test
+    public void TC_002_GETHeaders()
+    {
+        //Base URI
+        RestAssured.baseURI = "https://jsonplaceholder.typicode.com/";
+
+        //Request Specification
 
     }
 }

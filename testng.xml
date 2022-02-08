@@ -20,7 +20,7 @@
             </pluginManagement>
         </build>
         <classes>
-            <class name="TC_001_POST_Request"/>
+            <class name="API.TC_001_POST_Request"/>
         </classes>
     </test>
 
