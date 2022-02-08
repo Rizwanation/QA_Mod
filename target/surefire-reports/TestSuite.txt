@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.695 s <<< FAILURE! - in TestSuite
+TC_001_POST_Request.RegistrationTest  Time elapsed: 1.31 s  <<< FAILURE!
+java.net.UnknownHostException: restapi.demoqa.com: nodename nor servname provided, or not known
+	at TC_001_POST_Request.RegistrationTest(TC_001_POST_Request.java:49)
+
