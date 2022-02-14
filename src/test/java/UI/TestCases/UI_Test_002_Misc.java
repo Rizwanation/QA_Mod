@@ -5,10 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WindowType;
 import org.testng.annotations.Test;
 
-import java.util.Iterator;
 import java.util.Set;
 
-public class UI_Test_002_Switch extends base{
+public class UI_Test_002_Misc extends base{
 
     @Test
     public void Switch_Window_01(){
@@ -29,11 +28,16 @@ public class UI_Test_002_Switch extends base{
 
         Set<String> handles = driver.getWindowHandles();
 
-        //Iterator ab;
-
-        //driver.switchTo().window(handles)
-
-        //driver.quit
+       handles.forEach((handle)->
+       {
+            driver.switchTo().window(handle);
+           System.out.println(driver.getTitle());
+            try {
+            Thread.sleep(2000);
+            } catch (InterruptedException e)
+            {
+            e.printStackTrace();
+        }});
 
     }
 
