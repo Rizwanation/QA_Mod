@@ -61,7 +61,7 @@ public class API_01_OAuth2 {
         expectedBody.put("action","barn-unlock");
         expectedBody.put("success",true);
         expectedBody.put("message","You just unlocked your barn! Watch out for strangers!");
-        expectedBody.put("data","l");
+        expectedBody.put("data","null");
 
         expectedBody.forEach((k,v) ->
 
