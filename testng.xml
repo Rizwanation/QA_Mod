@@ -21,8 +21,7 @@
         </build>
         <classes>
             <class name="API.API_01_OAuth2"/>
-            <class name="UI.TestCases.UI_Test_001_AllLinks"/>
-            <class name="UI.TestCases.UI_Test_002_Misc"/>
+
         </classes>
     </test>
 
