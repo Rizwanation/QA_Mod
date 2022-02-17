@@ -1,12 +1,15 @@
 package UI.TestCases;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class base {
@@ -28,8 +31,28 @@ public class base {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
+    @AfterMethod
     public void teardown()
     {
         driver.quit();
+    }
+
+
+    public void takeSS(String filenameWhichWillBeTestCaseNameAsWell)
+    {
+
+        TakesScreenshot ts = (TakesScreenshot) driver;
+
+        File src;
+        File dest = new File(System.getProperty("user.dir")+"//SS//"+filenameWhichWillBeTestCaseNameAsWell);
+
+        src = ts.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(src,dest);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 }
