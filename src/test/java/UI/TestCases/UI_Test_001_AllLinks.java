@@ -2,6 +2,7 @@ package UI.TestCases;
 
 import UI.PageObjects.PO_olxHomePage;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -10,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class UI_Test_001_AllLinks extends base {
 
 
-    @Test
+//    @Test
     public void UI_Test_01_PrintAllLinks() {
 
 
@@ -33,7 +34,7 @@ public class UI_Test_001_AllLinks extends base {
 
         }
 
-    @Test
+//    @Test
     public void UI_Test_02_PrintAllLinks_Lambda() {
 
 
@@ -60,7 +61,7 @@ public class UI_Test_001_AllLinks extends base {
 
 
 
-    @Test
+//    @Test
     public void UI_Test_03_Broken_Links()
     {
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
@@ -81,6 +82,13 @@ public class UI_Test_001_AllLinks extends base {
         System.out.println("Number of working links on this page: " +count);
 
 
+    }
+
+    @Test
+    public void TC_001_Simple()
+    {
+        driver.get("https://www.google.com/");
+        Assert.assertTrue(false);
     }
 
 

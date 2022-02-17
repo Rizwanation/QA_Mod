@@ -20,7 +20,8 @@ public class Listeners extends base implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        ITestListener.super.onTestFailure(result);
+
+        takeSS(result.getName());
     }
 
     @Override
