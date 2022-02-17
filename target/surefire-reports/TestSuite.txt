@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.946 s <<< FAILURE! - in TestSuite
-API.API_01_OAuth2.TC_001_Post_With_Oauth2  Time elapsed: 0.702 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data doesn't match.
-Expected: l
-  Actual: null
-
-	at API.API_01_OAuth2.lambda$TC_001_Post_With_Oauth2$0(API_01_OAuth2.java:69)
-	at API.API_01_OAuth2.TC_001_Post_With_Oauth2(API_01_OAuth2.java:66)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.157 s - in TestSuite
