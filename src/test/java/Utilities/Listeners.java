@@ -16,12 +16,13 @@ public class Listeners extends base implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         System.out.println("Test Successful *********!");
+        takeSS(result.getName()+"_success");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
 
-        takeSS(result.getName());
+        takeSS(result.getName()+"_failure");
     }
 
     @Override
