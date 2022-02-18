@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.66 s <<< FAILURE! - in TestSuite
-UI.TestCases.UI_Test_001_AllLinks.TC_001_Simple  Time elapsed: 2.687 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at UI.TestCases.UI_Test_001_AllLinks.TC_001_Simple(UI_Test_001_AllLinks.java:91)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.793 s - in TestSuite
