@@ -35,7 +35,7 @@ public class PO_Paradym_Login {
     WebElement Password;
 
 
-    @FindBy(partialLinkText = "Sign In")
+    @FindBy(css = "input[value='Sign In']")
     WebElement SignInButton;
 
 
