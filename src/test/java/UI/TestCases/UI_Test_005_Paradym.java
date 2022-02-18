@@ -26,7 +26,7 @@ public class UI_Test_005_Paradym extends base{
         PO_Paradym_Login PL = new PO_Paradym_Login(driver);
 
         PL.getUsername().sendKeys("mrizwan");
-        PL.getUsername().sendKeys("TrueGrit3333");
+        PL.getPassword().sendKeys("TrueGrit3333");
         PL.getSignInButton().click();
 
 
