@@ -5,23 +5,7 @@
         <listener class-name="Utilities.Listeners"/>
     </listeners>
     <test name="Validating User login">
-        <build>
-            <pluginManagement>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
-                        <configuration>
-                            <suiteXmlFiles>
-                                <suiteXmlFile>testng.xml</suiteXmlFile>
 
-                            </suiteXmlFiles>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </pluginManagement>
-        </build>
         <classes>
             <class name="UI.TestCases.UI_Test_001_AllLinks"/>
 
