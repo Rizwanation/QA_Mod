@@ -45,7 +45,7 @@
                             <version>3.0.0-M5</version>
                             <configuration>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>testngParadym</suiteXmlFile>
+                                    <suiteXmlFile>testngParadym.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>
