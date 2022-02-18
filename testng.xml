@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="Utilities.Listeners"/>
     </listeners>
-    <test name="Validating User login">
+    <test name="Test Tag Name Attrib in XML">
 
         <classes>
             <class name="UI.TestCases.UI_Test_001_AllLinks"/>
