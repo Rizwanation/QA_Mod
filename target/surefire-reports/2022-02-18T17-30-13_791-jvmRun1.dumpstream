@@ -1,0 +1,11 @@
+# Created at 2022-02-18T17:30:47.502
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'NIS-PK591s-MacBook-Pro.local', ip: 'fe80:0:0:0:10c5:728d:c003:3108%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.2', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f83066b10b337899a757b4a67a37f369, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/y9/yd18ntns7md...}, goog:chromeOptions: {debuggerAddress: localhost:57616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57616/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f83066b10b337899a757b4a67a37f369
+
