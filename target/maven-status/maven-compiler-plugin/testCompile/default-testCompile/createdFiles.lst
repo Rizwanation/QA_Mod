@@ -1,4 +1,5 @@
 Utilities/Listeners.class
 UI/TestCases/UI_Test_005_Paradym.class
+UI/PageObjects/TrendMicro.class
 UI/PageObjects/PO_Paradym_Login.class
 UI/TestCases/UI_Test_004_File.class

@@ -1,10 +1,14 @@
 package UI.TestCases;
 
 import UI.PageObjects.PO_olxHomePage;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.concurrent.TimeUnit;
 
 
@@ -87,8 +91,12 @@ public class UI_Test_001_AllLinks extends base {
     @Test
     public void TC_001_Simple()
     {
-        driver.get("https://www.google.com/");
+       driver.get("https://www.google.com/");
         Assert.assertTrue(true);
+
+        File  cookies = new File("cookies.txt");
+
+
     }
 
 

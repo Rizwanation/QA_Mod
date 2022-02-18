@@ -1,0 +1,14 @@
+__cfruid^;52263e916729044462932e331eeb970d05a82a8a-1645197697^;.teachable.com^;/^;null^;true
+ajs_group_id^;null^;.teachable.com^;/^;Sat Feb 18 20:21:39 PKT 2023^;false
+ajs_user_id^;null^;.teachable.com^;/^;Sat Feb 18 20:21:39 PKT 2023^;false
+__cf_bm^;0.ju0rrjTWlwol3c1avN72tKGC7EI1uloMeJ4yO93Ng-1645197699-0-AaFykP6zVrDQgcUIRC6Ii6EEiU1dANoaurfE7B/MLMXDOZImtkw7kbPJEjAay+YvB7VZmZP5QPIRgJTQcwmu4oZo2ZzEcEk/WTcsEpkOGQfjlz2pSLgECxjRTZ4T0CMl0h0afmepqowIqGo0UOCGZF2LcBf9sRvvfBO+A6uw9+XWzrNrL1cFI0HwjzrUgrBjRg==^;.teachable.com^;/^;Fri Feb 18 20:51:39 PKT 2022^;true
+ahoy_visitor^;9c53c5b9-7100-4305-a19e-97ff3a54ec71^;sso.teachable.com^;/^;Sun Feb 18 20:21:37 PKT 2024^;true
+_gid^;GA1.2.1682052404.1645197701^;.teachable.com^;/^;Sat Feb 19 20:21:41 PKT 2022^;false
+_session_id^;a7457f9d17bef4489d2a0ce7f5e44e9a^;sso.teachable.com^;/^;Sun Mar 20 20:21:37 PKT 2022^;true
+ahoy_track^;true^;sso.teachable.com^;/^;null^;true
+_gat^;1^;.teachable.com^;/^;Fri Feb 18 20:22:41 PKT 2022^;false
+_afid^;9c53c5b9-7100-4305-a19e-97ff3a54ec71^;.teachable.com^;/^;Sat Feb 18 20:21:38 PKT 2023^;true
+ajs_anonymous_id^;%22ed0598de-fe95-4c58-a77b-d9728118c1bc%22^;.teachable.com^;/^;Sat Feb 18 20:21:39 PKT 2023^;false
+_ga^;GA1.2.497770067.1645197701^;.teachable.com^;/^;Sun Feb 18 20:21:41 PKT 2024^;false
+aid^;9c53c5b9-7100-4305-a19e-97ff3a54ec71^;.teachable.com^;/^;Sat Feb 18 20:21:38 PKT 2023^;true
+ahoy_visit^;0b8e2f3c-2e1a-4e58-a4ff-b1484b4090a1^;sso.teachable.com^;/^;Sat Feb 19 00:21:37 PKT 2022^;true

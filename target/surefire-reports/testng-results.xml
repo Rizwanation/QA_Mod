@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-18T17:24:59 PKT" name="Suite" finished-at="2022-02-18T17:25:10 PKT" duration-ms="11276">
+  <suite started-at="2022-02-18T17:46:24 PKT" name="Suite" finished-at="2022-02-18T17:46:48 PKT" duration-ms="23607">
     <groups>
     </groups>
-    <test started-at="2022-02-18T17:24:59 PKT" name="Test Tag Name Attrib in XML" finished-at="2022-02-18T17:25:10 PKT" duration-ms="11276">
-      <class name="UI.TestCases.UI_Test_001_AllLinks">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:UI.TestCases.UI_Test_001_AllLinks@47faa49c]" started-at="2022-02-18T17:24:59 PKT" name="initializeDriver" finished-at="2022-02-18T17:25:07 PKT" duration-ms="8180" status="PASS">
+    <test started-at="2022-02-18T17:46:24 PKT" name="Paradym Tests" finished-at="2022-02-18T17:46:48 PKT" duration-ms="23607">
+      <class name="UI.TestCases.UI_Test_005_Paradym">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:UI.TestCases.UI_Test_005_Paradym@53fdffa1]" started-at="2022-02-18T17:46:24 PKT" name="initializeDriver" finished-at="2022-02-18T17:46:32 PKT" duration-ms="7980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="TC_001_Simple()[pri:0, instance:UI.TestCases.UI_Test_001_AllLinks@47faa49c]" started-at="2022-02-18T17:25:07 PKT" name="TC_001_Simple" finished-at="2022-02-18T17:25:09 PKT" duration-ms="2430" status="PASS">
+        <test-method signature="UI_Test_001_LoginCheck()[pri:0, instance:UI.TestCases.UI_Test_005_Paradym@53fdffa1]" started-at="2022-02-18T17:46:32 PKT" name="UI_Test_001_LoginCheck" finished-at="2022-02-18T17:46:47 PKT" duration-ms="15064" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001_Simple -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:UI.TestCases.UI_Test_001_AllLinks@47faa49c]" started-at="2022-02-18T17:25:10 PKT" name="teardown" finished-at="2022-02-18T17:25:10 PKT" duration-ms="139" status="PASS">
+        </test-method> <!-- UI_Test_001_LoginCheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UI.TestCases.UI_Test_005_Paradym@53fdffa1]" started-at="2022-02-18T17:46:48 PKT" name="teardown" finished-at="2022-02-18T17:46:48 PKT" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- UI.TestCases.UI_Test_001_AllLinks -->
-    </test> <!-- Test Tag Name Attrib in XML -->
+      </class> <!-- UI.TestCases.UI_Test_005_Paradym -->
+    </test> <!-- Paradym Tests -->
   </suite> <!-- Suite -->
 </testng-results>
