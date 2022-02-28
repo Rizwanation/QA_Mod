@@ -1,6 +1,5 @@
 package UI.TestCases;
 
-import io.cucumber.java.BeforeStep;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -9,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,7 +23,7 @@ public class base {
     //webdriver needs to be initialized as well...
 
    @BeforeClass
-    public void initializeDriver()
+    public WebDriver initializeDriver()
     {
         System.setProperty("webdriver.chrome.driver","/Users/muhammadrizwan/Documents/GitHub/RestAssured/Drivers/chromedriver97");
         ChromeOptions options = new ChromeOptions();
@@ -43,6 +41,7 @@ public class base {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        return  driver;
     }
 
     @AfterMethod
