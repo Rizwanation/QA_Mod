@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>testngParadym.xml</span>
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="UI.TestCases.UI_Test_005_Paradym" class="method navigator-link" hash-for-method="UI_Test_001_LoginCheck">UI_Test_001_LoginCheck</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Cucumber.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;Optional[Login tests]&quot;)">runScenario("", "Optional[Login tests]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,14 +122,17 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">UI.TestCases.UI_Test_005_Paradym</span>
+              <span class="class-name">Cucumber.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UI_Test_001_LoginCheck">
-                  </a> <!-- UI_Test_001_LoginCheck -->
-                  <span class="method-name">UI_Test_001_LoginCheck</span>
+                  <a name="runScenario(&quot;&quot;, &quot;Optional[Login tests]&quot;)">
+                  </a> <!-- runScenario("", "Optional[Login tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("", "Optional[Login tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +140,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/muhammadrizwan/user1/QA_Mod/testngParadym.xml</span>
+            <span class="header-content">/Users/muhammadrizwan/clone/QA_Mod/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,11 +150,11 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Utilities.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Paradym Tests&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Tag Name Attrib in XML&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;UI.TestCases.UI_Test_005_Paradym&quot;/&gt;
+      &lt;class name=&quot;Cucumber.TestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Paradym Tests --&gt;
+  &lt;/test&gt; &lt;!-- Test Tag Name Attrib in XML --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,7 +166,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Paradym Tests (1 class)</span>
+                <span class="test-name">Test Tag Name Attrib in XML (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,6 +176,14 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -191,14 +202,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UI_Test_001_LoginCheck')
-data.setCell(0, 2, 'UI.TestCases.UI_Test_005_Paradym')
-data.setCell(0, 3, 15064);
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'Cucumber.TestRunner')
+data.setCell(0, 3, 16725);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -224,19 +235,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">UI.TestCases.UI_Test_005_Paradym</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeDriver</span>
+              <div class="chronological-class-name">Cucumber.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@127a7272)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">UI_Test_001_LoginCheck</span>
-                <span class="method-start">8029 ms</span>
+                <span class="method-name">runScenario("", "Optional[Login tests]")</span>
+                <span class="method-start">165 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">23480 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">17362 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

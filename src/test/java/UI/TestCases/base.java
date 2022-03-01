@@ -1,5 +1,6 @@
 package UI.TestCases;
 
+import io.cucumber.java.Before;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,7 +23,8 @@ public class base {
 
     //webdriver needs to be initialized as well...
 
-   @BeforeClass
+
+    @BeforeClass
     public WebDriver initializeDriver()
     {
         System.setProperty("webdriver.chrome.driver","/Users/muhammadrizwan/Documents/GitHub/RestAssured/Drivers/chromedriver97");
@@ -41,6 +43,8 @@ public class base {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        System.out.println("Initialize Method opened this");
         return  driver;
     }
 

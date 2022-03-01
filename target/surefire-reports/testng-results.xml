@@ -2,24 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-18T17:46:24 PKT" name="Suite" finished-at="2022-02-18T17:46:48 PKT" duration-ms="23607">
+  <suite started-at="2022-03-01T19:37:53 PKT" name="Suite" finished-at="2022-03-01T19:38:11 PKT" duration-ms="17383">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestRunner@71a8adcf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-02-18T17:46:24 PKT" name="Paradym Tests" finished-at="2022-02-18T17:46:48 PKT" duration-ms="23607">
-      <class name="UI.TestCases.UI_Test_005_Paradym">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:UI.TestCases.UI_Test_005_Paradym@53fdffa1]" started-at="2022-02-18T17:46:24 PKT" name="initializeDriver" finished-at="2022-02-18T17:46:32 PKT" duration-ms="7980" status="PASS">
+    <test started-at="2022-03-01T19:37:53 PKT" name="Test Tag Name Attrib in XML" finished-at="2022-03-01T19:38:11 PKT" duration-ms="17383">
+      <class name="Cucumber.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.TestRunner@71a8adcf]" started-at="2022-03-01T19:37:53 PKT" name="setUpClass" finished-at="2022-03-01T19:37:53 PKT" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@127a7272]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="UI_Test_001_LoginCheck()[pri:0, instance:UI.TestCases.UI_Test_005_Paradym@53fdffa1]" started-at="2022-02-18T17:46:32 PKT" name="UI_Test_001_LoginCheck" finished-at="2022-02-18T17:46:47 PKT" duration-ms="15064" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestRunner@71a8adcf]" started-at="2022-03-01T19:37:53 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-01T19:38:10 PKT" duration-ms="16725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login tests]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UI_Test_001_LoginCheck -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:UI.TestCases.UI_Test_005_Paradym@53fdffa1]" started-at="2022-02-18T17:46:48 PKT" name="teardown" finished-at="2022-02-18T17:46:48 PKT" duration-ms="107" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.TestRunner@71a8adcf]" started-at="2022-03-01T19:38:11 PKT" name="tearDownClass" finished-at="2022-03-01T19:38:11 PKT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- UI.TestCases.UI_Test_005_Paradym -->
-    </test> <!-- Paradym Tests -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber.TestRunner -->
+    </test> <!-- Test Tag Name Attrib in XML -->
   </suite> <!-- Suite -->
 </testng-results>
